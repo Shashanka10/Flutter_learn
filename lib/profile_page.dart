@@ -12,10 +12,10 @@ class ProfilePage extends StatelessWidget {
       itemBuilder: (BuildContext context, int index) {
         return ListTile(
           title: Text("Item ${(index + 1)}"),
-          leading: const Icon(Icons.sports_basketball),
-          trailing: const Icon(Icons.sports_cricket),
+          leading: const Icon(Icons.alarm),
+          trailing: const Icon(Icons.money),
           onTap: () {
-            debugPrint("Item ${(index + 1)} selected");
+            debugPrint("Item ${(index + 1)} has been selected");
           },
         );
       },
